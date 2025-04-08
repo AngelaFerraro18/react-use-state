@@ -1,12 +1,4 @@
-# React + Vite
+# React : useState
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Basandoci sulle nuove nozioni apprese a lezione, dobbiamo ricreare un layout composto da una serie di pulsanti; cliccando sui vari pulsanti avremo la comparsa di un paragrafo contenente una descrizione. Come materiale abbiamo un array di oggetti dove troviamo i titoli degli elementi da rappresentare, in questo caso i principali linguaggi di programmazione, e la descrizione di ognuno di essi. Con l'uso di useState dobbiamo rendere tutto dinamico al click dell'utente, mostrando e nascondendo il contenuto a seconda di cosa si è cliccato.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
