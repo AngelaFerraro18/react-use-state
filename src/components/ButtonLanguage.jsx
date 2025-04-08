@@ -12,7 +12,7 @@ function ButtonLanguage({ title, description }) {
         <button onClick={() => setIsActive(prev => !prev)}>{title}</button>
 
         {/* di conseguenza, se lo stato iniziale è true, allora vedrò il p, altrimenti no */}
-        {isActive && <p>{description}</p>}
+        {isActive && <div><h2>{title}</h2><p>{description}</p></div>}
     </div>)
 
 }
