@@ -7,9 +7,9 @@ function ButtonLanguage({ title, description, isOpen, onToggle, changeText }) {
 
     return (<div>
         {/* vado ad assegnare all'evento onClick la funzione setIsActive dove vado a cambiare lo stato iniziale dell'elemento false -> true */}
-        <button onClick={() => {
+        <button className={`btn ${isOpen ? 'btn-warning' : 'btn-primary'}`} onClick={() => {
             onToggle(),
-                changeText();
+                changeText()
         }}>{title}</button>
 
         {/* di conseguenza, se lo stato iniziale è true, allora vedrò il p, altrimenti no */}

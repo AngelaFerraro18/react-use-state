@@ -12,7 +12,7 @@ function ButtonList({ languages }) {
     const [activeDescription, setActiveDescription] = useState('Nessun linguaggio selezionato');
 
 
-    return <div>
+    return <div className="container d-flex gap-3 my-5">
         {languages.map(element =>
             <ButtonLanguage key={element.id}
                 title={element.title}
