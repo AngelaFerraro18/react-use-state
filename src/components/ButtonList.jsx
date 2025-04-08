@@ -1,5 +1,5 @@
 //importo il componente ButtonLanguage
-import ButtonLanguage from "./Button";
+import ButtonLanguage from "./ButtonLanguage";
 
 //creo il componente ButtonList e metto come props l'attributo languages e uso il metodo map per ricreare in pagina la lista degli elementi presenti nell'array fornito
 function ButtonList({ languages }) {
